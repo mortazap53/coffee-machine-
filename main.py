@@ -12,10 +12,6 @@ def showing_menu(data):
         price = data[choice]["cost"]
         print(f"{choice.title()}" + " ==> " + f"${price}")
 
-def tracking_resource():
-    water = MENU[take_order]["water"], milk = MENU[take_order]["milk"], coffee = MENU[take_order]["coffee"]
-    return water, milk, coffee
-
 
 
 
@@ -49,6 +45,7 @@ while not Order_again:
         Order_again = False
     elif not take_order_again:
         Order_again = True
+        print("Thanks for choosing us!")
 
 
 
