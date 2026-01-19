@@ -1,33 +1,34 @@
-☕ Coffee Machine Project
+ Coffee Machine Project
 
-📖 Overview
-This project is a Python-based Coffee Machine simulation.
+ Overview
+This project is a Python-based Coffee Machine simulation, actually the one of the most perfect once.
 It allows users to order drinks, checks if the machine has enough resources, processes payments, and updates the remaining resources.
-The project is designed to be extendable, meaning new drinks can be added easily in the future without changing the core logic.
+The project is designed to be extendable, using the individual dictionaries for individual tasks so, meaning new drinks can be added easily in the future without changing the core logic.
 
-🎯 Project Goals
+ Project Goals
 Simulate how a real coffee machine works
 Practice Python programming fundamentals
+Providing a self quiz for myself
 Build a project that is easy to expand with new drinks
 
-⚙️ Features
-🥤 Order drinks from the machine
-🔍 Automatically check required resources
-💰 Handle payment and refunds
-📦 Update available resources after each order
-➕ Designed to support adding new drinks in the future
+ Features
+ Order drinks from the machine
+ Automatically check required resources
+ Handle payment and refunds
+ Update available resources after each order
+ Designed to support adding new drinks in the future
 
-🧩 Extensible Design
+ Extensible Design
 Drinks are defined in a structured way, making it easy to:
 Add new drink names
 Set custom resource requirements
 Define different prices for each drink
 This design allows future improvements without rewriting existing code.
 
-🛠️ Technologies Used
+ Technologies Used
 Python 3
 
-▶️ How to Run the Project
+ How to Run the Project
 Install Python 3 on your system.
 
 Clone the repository:
@@ -37,7 +38,7 @@ cd coffee-machine
 Run the program:
 python main.py
 
-📂 Project Structure
+ Project Structure
 coffee-machine/
 │
 ├── core             # The Engin For Coffee Machine
@@ -48,17 +49,17 @@ coffee-machine/
 
 
 
-🧠 What I Learned
+ What I Learned
 Writing clean and readable Python code
 Designing programs that are easy to expand
 Using functions to separate logic
 Managing resources and payments efficiently
-🚀 Future Improvements
-➕ Add more drinks (tea, hot chocolate, etc.)
-🖥️ Improve user interaction
-💾 Save data using files or a database
-🧪 Add unit tests
+ Future Improvements
+ Add more drinks (tea, hot chocolate, etc.)
+ Improve user interaction
+ Save data using files or a database
+ Add unit tests
 
 
-👤 Author
+ Author
 Murtaza Panahi
