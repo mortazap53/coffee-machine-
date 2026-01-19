@@ -14,8 +14,7 @@ def collecting_money():
 def submitting_price(order, collected_money):
     if MENU[order]["cost"] <= collected_money:
         if MENU[order]["cost"] < collected_money:
-            refunded = collected_money - MENU[order]["cost"]
-            return f"You paid more than the required amount. Here is the refunded amount of money:{refunded}"
-        return "The price is accepted!"
+            return "extra"
+        return True
     else:
-        return "The price is insufficient.!"
+        return False
